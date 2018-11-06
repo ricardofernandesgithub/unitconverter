@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unit Converter</string>
+
+    <string name="titulo_actividade_0">Favourite Conversions</string>
+    <string name="titulo_actividade_1">Area</string>
+    <string name="titulo_actividade_2">Torque</string>
+    <string name="titulo_actividade_3">Distance / Length</string>
+    <string name="titulo_actividade_4">Currency</string>
+    <string name="titulo_actividade_5">Energy</string>
+    <string name="titulo_actividade_6">Mass / Weight</string>
+    <string name="titulo_actividade_7">Power</string>
+    <string name="titulo_actividade_8">Pressure</string>
+    <string name="titulo_actividade_9">Temperature</string>
+    <string name="titulo_actividade_10">Speed</string>
+    <string name="titulo_actividade_11">Volume</string>
+
+    <string-array name="unidades_temperatura">
+        <item>Kelvin</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="unidades_comprimento_distancia">
+        <item>Centimetre</item>
+        <item>Metre</item>
+        <item>Kilometre</item>
+        <item>Inch</item>
+        <item>Yard</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="unidades_massa_peso">
+        <item>Pound</item>
+        <item>Kilogram</item>
+        <item>Newton</item>
+    </string-array>
+
+    <string-array name="unidades_area">
+        <item>Hectare</item>
+        <item>Square Metre</item>
+        <item>Square Mile</item>
+    </string-array>
+
+    <string-array name="unidades_binario">
+        <item>Newton Metre</item>
+        <item>Pound Foot Force</item>
+    </string-array>
+
+    <string-array name="unidades_divisas">
+        <item>Pound(GBP)</item>
+        <item>Euro</item>
+        <item>Dollar(USD)</item>
+    </string-array>
+
+    <string-array name="unidades_energia">
+        <item>Joule</item>
+        <item>Calorie</item>
+        <item>BTU</item>
+    </string-array>
+
+    <string-array name="unidades_potencia">
+        <item>Horsepower</item>
+        <item>Kilowatt</item>
+    </string-array>
+
+    <string-array name="unidades_pressao">
+        <item>Bar</item>
+        <item>PSI</item>
+    </string-array>
+
+    <string-array name="unidades_velocidade">
+        <item>Metre/Second</item>
+        <item>Kilometre/Hour</item>
+    </string-array>
+
+    <string-array name="unidades_volume">
+        <item>Litre</item>
+        <item>Gallon(US)</item>
+    </string-array>
+
+    <string name="title_activity_conversoes_favoritas">FavouriteConversions</string>
+    <string name="conversoes_favoritas">Favourite Conversions</string>
+    <string name="area">Area</string>
+    <string name="divisas">Currency</string>
+    <string name="comprimento_distancia">Distance / Length</string>
+    <string name="energia">Energy</string>
+    <string name="massa_peso">Mass / Weight</string>
+    <string name="binario">Torque</string>
+    <string name="potencia">Power</string>
+    <string name="pressao">Pressure</string>
+    <string name="temperatura">Temperature</string>
+    <string name="velocidade">Speed</string>
+    <string name="volume">Volume</string>
+    <string name="conversao_adicionada">Conversion Added</string>
+    <string name="erro_adicionar_favorito">Error adding favourite!</string>
+    <string name="conversao_apagada">Conversion Deleted</string>
+    <string name="erro_apagar_favorito">Error deleting favourite!</string>
+    <string name="titulo_actividade_transicao">Favourite Conversions</string>
+    <string name="converter">Convert</string>
+    <string name="resultado">Result</string>
+    <string name="introduzir_valor_a_converter">Enter Value to Be Converted</string>
+    <string name="converter2">Convert</string>
+    <string name="introduzir_valor">Enter Value to Be Converted</string>
+    <string name="nome_conversao">Conversion Name</string>
+    <string name="resultado2">Result</string>
+    <string name="apagar_conversao">Do you want to delete favourite?</string>
+    <string name="nao">No</string>
+    <string name="sim">Yes</string>
+    <string name="excepcao_c">Insert value greater than absolute temperature: -273.15 °C</string>
+    <string name="excepcao_f">Insert value greater than absolute temperature: -459.67 ºF</string>
+    <string name="excepcao_k">Insert value greater than absolute temperature: 0 K</string>
+    <string name="introduzir_valor2">Enter a Value!</string>
+    <string name="maior_que_0">Enter a positive value!</string>
+    <string name="introduzir_valor3">Enter Value</string>
+    <string name="conversao_sem_utilidade">It doesn\'t make sense to add that conversion to the favourites!</string>
+    <string name="sobre_mensagem">Author: Ricardo Fernandes\n\nSubject: Mobile Device Programming\n\nTeacher: Noel Lopes\n\nLast change: 19/07/2017\n\nVersion 1.1.0</string>
+    <string name="sobre_a_aplicacao">About</string>
+    <string name="titulo_actividade_definicoes">Settings</string>
+    <string name="apagar_convers_es_favoritas">Delete All FAvourite Conversions</string>
+    <string name="casas_decimais">Decimal Places</string>
+    <string name="apagar_tudo_msg">Are you sure you want to delete all favourites?</string>
+    <string name="msg_remover_falhou">Error while deleting favourites!</string>
+    <string name="msg_nr_favoritos_apagados">" favourites where deleted."</string>
+
+</resources>

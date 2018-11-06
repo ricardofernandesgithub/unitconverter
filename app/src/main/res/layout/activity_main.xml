@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pt.example.rf.conversorunidades.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonFavoritos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:drawableStart="@android:drawable/btn_star_big_on"
+                    android:text="@string/conversoes_favoritas"
+                    android:textAlignment="textStart"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/buttonDefinicoes"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_preferences"
+                    android:textAlignment="textStart"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/area"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonDivisas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/divisas"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonComprimentoDistancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comprimento_distancia"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonEnergia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/energia"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonMassaPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/massa_peso"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonPotencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/potencia"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonPressao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pressao"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonVelocidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/velocidade"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonTemperatura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temperatura"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonBinario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/binario"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/buttonVolume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volume"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

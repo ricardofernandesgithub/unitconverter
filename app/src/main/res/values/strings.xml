@@ -1,0 +1,128 @@
+<resources>
+
+    <string name="app_name">Conversor Unidades</string>
+
+    <string name="titulo_actividade_0">Conversões Favoritas</string>
+    <string name="titulo_actividade_1">Área</string>
+    <string name="titulo_actividade_2">Binário</string>
+    <string name="titulo_actividade_3">Comprimento / Distância</string>
+    <string name="titulo_actividade_4">Divisas</string>
+    <string name="titulo_actividade_5">Energia</string>
+    <string name="titulo_actividade_6">Massa / Peso</string>
+    <string name="titulo_actividade_7">Potência</string>
+    <string name="titulo_actividade_8">Pressão</string>
+    <string name="titulo_actividade_9">Temperatura</string>
+    <string name="titulo_actividade_10">Velocidade</string>
+    <string name="titulo_actividade_11">Volume</string>
+
+    <string-array name="unidades_temperatura">
+        <item>Kelvin</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="unidades_comprimento_distancia">
+        <item>Centimetro</item>
+        <item>Metro</item>
+        <item>Kilometro</item>
+        <item>Polegada</item>
+        <item>Jarda</item>
+        <item>Milha</item>
+    </string-array>
+
+    <string-array name="unidades_massa_peso">
+        <item>Libra</item>
+        <item>Kilograma</item>
+        <item>Newton</item>
+    </string-array>
+
+    <string-array name="unidades_area">
+        <item>Hectare</item>
+        <item>Metro Quadrado</item>
+        <item>Milha Quadrada</item>
+    </string-array>
+
+    <string-array name="unidades_binario">
+        <item>Newton Metro</item>
+        <item>Libra Força Pé</item>
+    </string-array>
+
+    <string-array name="unidades_divisas">
+        <item>Libra(GBP)</item>
+        <item>Euro</item>
+        <item>Dolar(USD)</item>
+    </string-array>
+
+    <string-array name="unidades_energia">
+        <item>Joule</item>
+        <item>Caloria</item>
+        <item>BTU</item>
+    </string-array>
+
+    <string-array name="unidades_potencia">
+        <item>Cavalo</item>
+        <item>Kilowatt</item>
+    </string-array>
+
+    <string-array name="unidades_pressao">
+        <item>Bar</item>
+        <item>PSI</item>
+    </string-array>
+
+    <string-array name="unidades_velocidade">
+        <item>Metro/Segundo</item>
+        <item>Kilometro/Hora</item>
+    </string-array>
+
+    <string-array name="unidades_volume">
+        <item>Litro</item>
+        <item>Galão(US)</item>
+    </string-array>
+
+    <string name="title_activity_conversoes_favoritas">ConversoesFavoritasActivity</string>
+    <string name="conversoes_favoritas">Conversões Favoritas</string>
+    <string name="area">Área</string>
+    <string name="divisas">Divisas</string>
+    <string name="comprimento_distancia">Comprimento / Distância</string>
+    <string name="energia">Energia</string>
+    <string name="massa_peso">Massa / Peso</string>
+    <string name="binario">Binário</string>
+    <string name="potencia">Potência</string>
+    <string name="pressao">Pressão</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="velocidade">Velocidade</string>
+    <string name="volume">Volume</string>
+    <string name="conversao_adicionada">Conversão Adicionada</string>
+    <string name="erro_adicionar_favorito">Erro ao adicionar favorito!</string>
+    <string name="conversao_apagada">Conversão Apagada</string>
+    <string name="erro_apagar_favorito">Erro ao apagar favorito!</string>
+    <string name="titulo_actividade_transicao">Conversões Favoritas</string>
+    <string name="resultado">Resultado</string>
+    <string name="converter">Converter</string>
+    <string name="introduzir_valor_a_converter">Introduzir Valor a Converter</string>
+    <string name="dialog" translatable="false">dialog</string>
+    <string name="dialog2" translatable="false">dialog</string>
+    <string name="introduzir_valor">Introduzir Valor</string>
+    <string name="converter2">Converter</string>
+    <string name="nome_conversao">Nome Conversão</string>
+    <string name="resultado2">Resultado</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="apagar_conversao">Pretende apagar conversão?</string>
+    <string name="excepcao_f">Inserir valor superior à temperatura absoluta: -459.67 ºF</string>
+    <string name="excepcao_k">Inserir valor superior à temperatura absoluta: 0 K</string>
+    <string name="excepcao_c">Inserir valor superior à temperatura absoluta: -273.15 °C</string>
+    <string name="maior_que_0">Introduzir valor maior que 0!</string>
+    <string name="introduzir_valor2">Introduzir valor!</string>
+    <string name="introduzir_valor3">Introduzir Valor</string>
+    <string name="conversao_sem_utilidade">Não há utilidade em adicionar esta conversão!</string>
+    <string name="sobre_mensagem">Autor: Ricardo Fernandes\n\nDisciplina: Programação Para Dispositivos Móveis\n\nDocente: Noel Lopes\n\nÚltima alteração: 19/07/2017\n\nVersão 1.1.0</string>
+    <string name="sobre_a_aplicacao">Sobre a Aplicação</string>
+    <string name="titulo_actividade_definicoes">Definições</string>
+    <string name="casas_decimais">Casas Decimais</string>
+    <string name="apagar_convers_es_favoritas">Apagar Conversões Favoritas</string>
+    <string name="apagar_tudo_msg">Tem a certeza que pretende apagar todos os favoritos?</string>
+    <string name="msg_remover_falhou">Erro ao apagar favoritos!</string>
+    <string name="msg_nr_favoritos_apagados"> conversões foram apagadas.</string>
+
+</resources>
